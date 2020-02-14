@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SACS_PLT_SUITE" thread-count="1" parallel="methods">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="com.sacs.Reportinglib.CustomReporter" />
+	</listeners>
+	 <test name="PLT_FLOWS_EMEA">
+		<classes>
+			<class name="com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases">
+			<methods>
+			<include name="Verify_PLTFLOW_RegularVendor_Airline_NonNominated_PO_TC4"></include>
+			<include name="Verify_PLTFLOW_RegularVendor_Airline_Nominated_Customer_PO_TC5"></include>
+			<include name="Verify_PLTFLOW_RegularVendor_Airline_Nominated_GateTrade_PO_TC6"></include>
+			<include name="Verify_PLTFLOW_IntercomVendor_Airline_NonNominated_PO_TC10"></include>
+			<include name="Verify_PLTFLOW_IntercomVendor_Airline_Nominated_Customer_PO_TC11"></include>
+			<include name="Verify_PLTFLOW_IntercomVendor_Airline_Nominated_GateTrade_WithoutPO_TC12"></include>
+			<include name="Verify_PLTFLOW_Vendor_SAPTransferFlag_Disable_Airline_NonNominated_PO_TC16"></include>
+			<include name="Verify_PLTFLOW_Vendor_SAPTransferFlag_Disable_Airline_Nominated_Customer_PO_TC17"></include>
+			<include name="Verify_PLTFLOW_Vendor_SAPTransferFlag_Disable_Airline_Nominated_GateTrade_PO_TC18"></include>
+			<include name="Verify_PLTFLOW_Vendor_ElectronicInterfaceSupportedFlag_Enabled_Airline_NonNominated_PO_TC22"></include>
+			<include name="Verify_PLTFLOW_Vendor_ElectronicInterfaceSupportedFlag_Enabled_Airline_Nominated_Customer_PO_TC23"></include>
+			<include name="Verify_PLTFLOW_Vendor_ElectronicInterfaceSupportedFlag_Enabled_Airline_Nominated_GateTrade_PO_TC24"></include>
+			</methods>
+			</class>
+		
+		</classes>
+	</test>
+</suite> 

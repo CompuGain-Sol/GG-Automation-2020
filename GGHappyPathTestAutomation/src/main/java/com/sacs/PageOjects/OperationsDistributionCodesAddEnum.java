@@ -1,0 +1,117 @@
+package com.sacs.PageOjects;
+
+public enum OperationsDistributionCodesAddEnum {
+	
+	OPERATIONS("operations"),
+	DISTRIBUTIONCODES_("//*[@id='distributioncodes']/a"),
+	ADD_BTN("//*[@id='contentHeader']/div[2]/a"),
+	PAGE_TITLE("//*[@id='contentHeader']/div[1]/h1"),
+	SEARCH_FIELD(".//*[@id='articlesearch']"),
+	SEARCH_SUBMIT("searchSubmit"),
+	TOAST_MESSAGE("toast-message"),
+	SHOW_ENTERIES("k-input"),
+	PAGER_TOP(".//*[@id='gridWrapper']/div[3]"),
+	APPLY_CHANGES_ICON("//*[@id='nav']/li[2]/a/div"),
+	CODE_("//*[@id='Code']"),
+	DESCRIPTION_("//*[@id='Description']"),
+	GET_LABEL_DROPDOWN_("//*[@id='LabelTextSource']"),
+	OK_BTN("//*[@id='okContainer']/a"),
+	OK_AFTER_EDIT_BTN("//*[@id='okDistributionCodeHeader']/a"),
+	ADD_LINE_BTN("//*[@id='addLineContainer']/a"),
+	SALES_NUMBER_CHECKBOX("//*[@id='addSalesResults']/table/tbody/tr[1]/td[1]/div/label/span"),
+	SALES_NUMBER_SECOND_CHECK_BOX("//*[@id='addSalesResults']/table/tbody/tr[2]/td[1]/div/label/span"),
+	ADD_SELECTED_BTN("//*[@id='addSalesPriceWrapper']/div[1]/div[2]/a"),
+	
+	RESULT_GRID_FIRSTCOLUMN_AFTER_SEARCH("//*[@id='results']/table/tbody/tr/td[1]"),
+	RESULT_GRID_FIRSTCOLUMN_BEFORE_SEARCH("//*[@id='results']/table/tbody/tr[1]/td[1]"),
+	
+	RESULT_GRID_SECONDCOLUMN_BEFORE_SEARCH("//*[@id='results']/table/tbody/tr[1]/td[2]"),
+	RESULT_GRID_SECONDCOLUMN_AFTER_SEARCH("//*[@id='results']/table/tbody/tr/td[2]"),
+	
+	EDIT("//*[@id='editDistributionCodeHeader']/a"), 
+	SEARCH_RESULTS_HEADING("//*[@id='gridWrapper']/div[1]/div[1]"),
+	SEARCH_RESULT("//*[@id='results']/table/tbody/tr[1]/td[1]"),
+	DISTRIBUTION_CODE_HEADING("//*[@id='results']/table/thead/tr/th[1]"),
+	DESCRIPTION_HEADING("//*[@id='results']/table/thead/tr/th[2]"),
+	STOWAGE_FILL_FACTOR_HEADING("//*[@id='results']/table/thead/tr/th[3]"),
+	LABEL_TEXT_HEADING("//*[@id='results']/table/thead/tr/th[4]"),
+	DISTRIBUTION_CODE_CRITERIA("//*[@id='searchContainer']/div[2]/div[1]/label/span"),
+	DESCRIPTION_CRITERIA("//*[@id='searchContainer']/div[2]/div[2]/label/span"),
+	INVERTED_SYMBOL("//*[@id='searchContainer']/div[1]/span[3]/a/img"),
+	ADD_LINE_SEARCH_INVERTED_SYMBOL("//*[@id='addSearchContainer']/div[1]/span[3]/a/img"),
+	SEARCH_ENTERIES_INVERTER_SYMBOL("//*[@id='gridWrapper']/div[1]/div[2]/span/span[1]/span[2]"),
+	SEARCH_RESULT_GRID_SELECT_ITEMS_PER_PAGE_LIST_CLASS("k-item"),
+	SEARCH_RESULT_GRID_CLASS_COLUMN_CLASS("articlenumber"),
+	SEARCH_RESULT_GRID_NEXT_LINK_("//*[@id='gridWrapper']/div[3]/div/a[3]/span"),
+	SEARCH_RESULT_GRID_PREVIOUS_LINK_("//*[@id='gridWrapper']/div[3]/div/a[2]/span"),
+	SEARCH_RESULT_GRID_LAST_LINK_("//*[@id='gridWrapper']/div[3]/div/a[4]/span"),
+	SEARCH_RESULT_GRID_FIRST_LINK_("//*[@id='gridWrapper']/div[3]/div/a[1]/span"),
+	DISTRIBUTION_CODE_ASTRICKS("//*[@id='formBody']/div[2]/div[1]/span[1]/sup"),
+	DESCRIPTION_ASTRICKS("//*[@id='formBody']/div[2]/div[2]/span/sup"),
+	GET_LABELS_ASTRICKS("//*[@id='formBody']/div[2]/div[3]/span/sup"),
+	PRODUCT_CALCULATION("P-Product calculation description"),
+	SALESNO_DESCRIPTION_1("S-Sales number description 1"),
+	SALESNO_DESCRIPTION_2("Z-Sales number description 2"),
+	STOWAGE_FILL_FACTOR("//*[@id='StowageFillFactor']"),
+	
+	ADD_LINE_SALES_NUMBER_HEADING("//*[@id='addSalesResults']/table/thead/tr/th[2]/a"),
+	ADD_LINE_DESCRIPTION_HEADING("//*[@id='addSalesResults']/table/thead/tr/th[3]/a"),
+	ADD_LINE_UOM_HEADING("//*[@id='addSalesResults']/table/thead/tr/th[4]/a"),
+	CLOSE_BTN("//*[@id='addSalesPriceWrapper']/div[1]/div[3]/a"),
+	PAGINATION_CONROLS("//*[@id='addSalesResults']/div/div"),
+	ADD_LINE_SALES_NUMBER_FIRST_ROW("//*[@id='addSalesResults']/table/tbody/tr/td[2]"),
+	ADD_LINE_DESCRIPTION_FIRST_ROW("//*[@id='addSalesResults']/table/tbody/tr/td[3]"),
+	ADD_LINE_SEARCH_NO_DATA_TO_DISPLAY("//*[@id='addSalesResults']/table/tbody/tr/td"),
+	ADD_LINE_SALES_NUMBER_CRITERIA("//*[@id='addSearchContainer']/div[2]/div[1]/label/span"),
+	ADD_LINE_DESCRIPTION_CRITERIA("//*[@id='addSearchContainer']/div[2]/div[2]/label/span"),
+	ADD_LINE_SALES_NUMBER_FIRST_ROW_BEFORE_SEARCH("//*[@id='addSalesResults']/table/tbody/tr[1]/td[2]"),
+	ADD_LINE_NEXT_BTN(".//*[@id='addSalesResults']/div/div/a[3]/span"),
+	ADD_LINE_PREVIOUS_BTN("//*[@id='addSalesResults']/div/div/a[2]/span"),
+	ADD_LINE_LAST_BTN("//*[@id='addSalesResults']/div/div/a[4]/span"),
+	ADD_LINE_FIRST_BTN("//*[@id='addSalesResults']/div/div/a[1]/span"),
+	SHOWING_ENTRIES("//*[@id='addSalesResults']/div/span"),
+	ADD_LINE_CLOSE_NO_DATA("//*[@id='salesPriceResults']/table/tbody/tr/td"),
+	NEW_LINE_SALES_NUMBER("//*[@id='salesPriceResults']/table/tbody/tr/td[1]/div"),
+	NEW_LINE_DESCRIPTION("//*[@id='salesPriceResults']/table/tbody/tr/td[2]"),
+	NEW_LINE_UOM("//*[@id='salesPriceResults']/table/tbody/tr/td[3]"),
+	NEW_LINE_LABEL_TEXT("//*[@id='salesPriceResults']/table/tbody/tr/td[4]"),
+	DELETE_ICON_ON_FIRST_LINE("//*[@id='salesPriceResults']/div[6]/div/div/div[1]/div[5]/span/a"),
+	BACK_TO_SEARCH_ON_UPDATE_PAGE(".//*[@id='contentHeader']/div[3]/a"),
+	LAST_UPDATED_DETAILS("//*[@id='nav']/li[5]/div/span"),
+	DELETE("//*[@id='removePoLink']/div"),
+	COPY("//*[@id='nav']/li[3]/a/div"),
+	LAST_UPDATED("//*[@id='nav']/li[5]/div"),
+	MENU("//*[@id='nav']/li[1]/div"),
+	
+	CSP("//*[@id='cateringstowageplan']/a"),
+	ADD_CSP("//*[@id='contentHeader']/div[2]/a"),
+	TEXT_ON_DELETE_POPUP("//*[@id='loadingModal']/div[1]/div"),
+	OK_ON_DELETE_POPUP("//*[@id='loadingModal']/div[2]/a"),
+	OK_ON_CANNOT_DELETE("//*[@id='loadingModal']/div[2]/a"),
+	OK_ON_DELETE_NONCONNECTED_CODE("//*[@id='loadingModal']/div[2]/a[2]"),
+	CANCEL_ON_DELETE_NONCONNECTED_CODE("//*[@id='loadingModal']/div[2]/a[1]"),
+	DELETE_POPUP("//*[@id='loadingModal']"),
+	COPY_POPUP("//*[@id='loadingModal']"),
+	OK_ON_COPY_POPUP("//*[@id='loadingModal']/div[2]/a[2]"),
+	CANCEL_ON_COPY_POPUP("//*[@id='loadingModal']/div[2]/a[1]"),
+	DELETEICON("//*[@id='removePoLink']/div"),
+	//POPUPOK("//*[@id='attentionModal']/div[2]/a[2]"),
+	POPUPOK("//*[@id='loadingModal']/div[2]/a[2]"),
+	NODATATODISPLAY("//*[@id='results']/table/tbody/tr/td"),
+	ADDED_LINE_DESCRIPTION("//*[@id='salesPriceResults']/div[6]/div/div/div/div[2]"),
+	ADDED_LINE_SALES_NUMBER("//*[@id='salesPriceResults']/div[6]/div/div/div[1]/div[1]"),
+	ADDED_LINE_UOM("//*[@id='salesPriceResults']/div[6]/div/div/div[1]/div[3]"),
+	ADDED_LINE_LABEL_TEXT("//*[@id='salesPriceResults']/div[6]/div/div/div/div[4]"),
+	CUSTOMERCODE("//*[@id='ParentCustomerId']");
+
+	public String element;
+	private OperationsDistributionCodesAddEnum(String element){
+		 this.element = element;
+	 }
+	public String getElementPath(){
+		return element;
+	}
+
+	
+	
+}
