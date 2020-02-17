@@ -1,0 +1,283 @@
+ClassName,Test Case Name,Status,Test Case Description,Module Name,Suite Name,Operating System,Browser,Build No,Time in Seconds
+com.sacs.plt.testcases.PLTFlow_TestCases,Verify_PLTFLOW_RegularVendor_NonAirline_NonNominated_PO_Invoice_PLTTransfer_TC1,Y,,,SACS_PLT_SUITE,windows 10,,null,282.998
+ClassName,Test Case Name,Status,Test Case Description,Module Name,Suite Name,Operating System,Browser,Build No,Time in Seconds
+com.sacs.plt.testcases.PLTFlows_POCTestCases,Verify_PLTFLOW_RegularVendor_Airline_NonNominated_PO_TC1,Y,,,SACS_PLT_SUITE,windows 10,,null,545.782
+ClassName,Test Case Name,Status,Test Case Description,Module Name,Suite Name,Operating System,Browser,Build No,Time in Seconds
+com.sacs.plt.testcases.PLTFlows_POCTestCases,test,N,,,SACS_PLT_SUITE,windows 10,,null,0.005
+ClassName,Test Case Name,Status,Test Case Description,Module Name,Suite Name,Operating System,Browser,Build No,Time in Seconds
+com.sacs.plt.testcases.PLTFlows_POCTestCases,test,N,,,SACS_PLT_SUITE,windows 10,,null,0.006
+ClassName,Test Case Name,Status,Test Case Description,Module Name,Suite Name,Operating System,Browser,Build No,Time in Seconds
+com.sacs.plt.testcases.PLTFlows_POCTestCases,test,N,,,SACS_PLT_SUITE,windows 10,,null,0.005
+ClassName,Test Case Name,Status,Test Case Description,Module Name,Suite Name,Operating System,Browser,Build No,Time in Seconds
+com.sacs.plt.testcases.PLTFlows_POCTestCases,Verify_PLTFLOW_RegularVendor_Airline_NonNominated_PO_TC1,N,,,SACS_PLT_SUITE,windows 10,,null,324.891
+ClassName,Test Case Name,Status,Test Case Description,Module Name,Suite Name,Operating System,Browser,Build No,Time in Seconds
+com.sacs.plt.testcases.PLTFlows_POCTestCases,Verify_PLTFLOW_RegularVendor_Airline_NonNominated_PO_TC3,N,,,SACS_PLT_SUITE,windows 10,,null,278.397
+com.sacs.plt.testcases.PLTFlows_POCTestCases,Verify_PLTFLOW_RegularVendor_Airline_NonNominated_PO_TC2,N,,,SACS_PLT_SUITE,windows 10,,null,457.814
+com.sacs.plt.testcases.PLTFlows_POCTestCases,Verify_PLTFLOW_RegularVendor_Airline_NonNominated_PO_TC4,N,,,SACS_PLT_SUITE,windows 10,,null,323.012
+com.sacs.plt.testcases.PLTFlows_POCTestCases,Verify_PLTFLOW_RegularVendor_Airline_NonNominated_PO_TC1,N,,,SACS_PLT_SUITE,windows 10,,null,568.049
+ClassName,Test Case Name,Status,Test Case Description,Module Name,Suite Name,Operating System,Browser,Build No,Time in Seconds
+com.sacs.plt.testcases.PLTFlows_POCTestCases,Verify_PLTFLOW_RegularVendor_Airline_NonNominated_PO_TC1,N,,,SACS_PLT_SUITE,windows 10,,null,25.548
+ClassName,Test Case Name,Status,Test Case Description,Module Name,Suite Name,Operating System,Browser,Build No,Time in Seconds
+com.sacs.plt.testcases.PLTFlows_POCTestCases,Verify_PLTFLOW_RegularVendor_Airline_NonNominated_PO_TC1,Y,,,SACS_PLT_SUITE,windows 10,,null,215.500
+ClassName,Test Case Name,Status,Test Case Description,Module Name,Suite Name,Operating System,Browser,Build No,Time in Seconds
+com.sacs.plt.testcases.PLTFlows_POCTestCases,Verify_PLTFLOW_RegularVendor_Airline_NonNominated_PO_TC1,Y,,,SACS_PLT_SUITE,windows 10,,null,295.270
+ClassName,Test Case Name,Status,Test Case Description,Module Name,Suite Name,Operating System,Browser,Build No,Time in Seconds
+com.sacs.plt.testcases.PLTFlows_POCTestCases,Verify_PLTFLOW_RegularVendor_Airline_NonNominated_PO_TC3,N,,,SACS_PLT_SUITE,windows 10,,null,277.600
+com.sacs.plt.testcases.PLTFlows_POCTestCases,Verify_PLTFLOW_RegularVendor_Airline_NonNominated_PO_TC2,N,,,SACS_PLT_SUITE,windows 10,,null,259.319
+com.sacs.plt.testcases.PLTFlows_POCTestCases,Verify_PLTFLOW_RegularVendor_Airline_NonNominated_PO_TC4,Y,,,SACS_PLT_SUITE,windows 10,,null,324.439
+com.sacs.plt.testcases.PLTFlows_POCTestCases,Verify_PLTFLOW_RegularVendor_Airline_NonNominated_PO_TC1,Y,,,SACS_PLT_SUITE,windows 10,,null,333.033
+ClassName,Test Case Name,Status,Test Case Description,Module Name,Suite Name,Operating System,Browser,Build No,Time in Seconds
+com.sacs.plt.testcases.PLTFlows_POCTestCases,Verify_PLTFLOW_RegularVendor_Airline_NonNominated_PO_TC4,Y,,,Testreports123.xls,windows 10,,null,397.143
+com.sacs.plt.testcases.PLTFlows_POCTestCases,Verify_PLTFLOW_RegularVendor_Airline_NonNominated_PO_TC1,Y,,,Testreports123.xls,windows 10,,null,598.816
+ClassName,Test Case Name,Status,Test Case Description,Module Name,Suite Name,Operating System,Browser,Build No,Time in Seconds
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,Verify_PLTFLOW_RegularVendor_Airline_Nominated_GateTrade_PO_TC6,N,,,SACS_PLT_SUITE,windows 10,,null,346.179
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,Verify_PLTFLOW_Vendor_SAPTransferFlag_Disable_Airline_Nominated_Customer_PO_TC17,N,,,SACS_PLT_SUITE,windows 10,,null,352.815
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,Verify_PLTFLOW_Vendor_SAPTransferFlag_Disable_Airline_Nominated_GateTrade_PO_TC18,N,,,SACS_PLT_SUITE,windows 10,,null,348.455
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,Verify_PLTFLOW_RegularVendor_Airline_Nominated_Customer_PO_TC5,N,,,SACS_PLT_SUITE,windows 10,,null,334.599
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,Verify_PLTFLOW_Vendor_ElectronicInterfaceSupportedFlag_Enabled_Airline_Nominated_GateTrade_PO_TC24,N,,,SACS_PLT_SUITE,windows 10,,null,361.961
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,Verify_PLTFLOW_IntercomVendor_Airline_NonNominated_PO_TC10,N,,,SACS_PLT_SUITE,windows 10,,null,364.893
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,Verify_PLTFLOW_Vendor_SAPTransferFlag_Disable_Airline_NonNominated_PO_TC16,N,,,SACS_PLT_SUITE,windows 10,,null,344.009
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,Verify_PLTFLOW_IntercomVendor_Airline_Nominated_GateTrade_WithoutPO_TC12,N,,,SACS_PLT_SUITE,windows 10,,null,354.793
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,Verify_PLTFLOW_Vendor_ElectronicInterfaceSupportedFlag_Enabled_Airline_Nominated_Customer_PO_TC23,N,,,SACS_PLT_SUITE,windows 10,,null,353.416
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,Verify_PLTFLOW_RegularVendor_Airline_NonNominated_PO_TC4,N,,,SACS_PLT_SUITE,windows 10,,null,399.453
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,Verify_PLTFLOW_Vendor_ElectronicInterfaceSupportedFlag_Enabled_Airline_NonNominated_PO_TC22,N,,,SACS_PLT_SUITE,windows 10,,null,348.157
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,Verify_PLTFLOW_IntercomVendor_Airline_Nominated_Customer_PO_TC11,Y,,,SACS_PLT_SUITE,windows 10,,null,239.988
+ClassName,Test Case Name,Status,Test Case Description,Module Name,Suite Name,Operating System,Browser,Build No,Time in Seconds
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,Verify_PLTFLOW_IntercomVendor_Airline_Nominated_Customer_PO_TC11,N,,,FailedCases1202.xls,windows 10,,null,472.376
+ClassName,Test Case Name,Status,Test Case Description,Module Name,Suite Name,Operating System,Browser,Build No,Time in Seconds
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,Verify_PLTFLOW_IntercomVendor_Airline_Nominated_Customer_PO_TC11,N,,,FailedCases1202.xls,windows 10,,null,387.871
+ClassName,Test Case Name,Status,Test Case Description,Module Name,Suite Name,Operating System,Browser,Build No,Time in Seconds
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,Verify_PLTFLOW_IntercomVendor_Airline_Nominated_Customer_PO_TC11,N,,,FailedCases1202.xls,windows 10,,null,781.906
+ClassName,Test Case Name,Status,Test Case Description,Module Name,Suite Name,Operating System,Browser,Build No,Time in Seconds
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,Verify_PLTFLOW_RegularVendor_Airline_NonNominated_PO_TC4,N,,,SACS_PLT_SUITE,windows 10,,null,443.454
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,Verify_PLTFLOW_Vendor_ElectronicInterfaceSupportedFlag_Enabled_Airline_NonNominated_PO_TC22,Y,,,SACS_PLT_SUITE,windows 10,,null,878.013
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,Verify_PLTFLOW_RegularVendor_Airline_Nominated_GateTrade_PO_TC6,Y,,,SACS_PLT_SUITE,windows 10,,null,262.281
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,Verify_PLTFLOW_IntercomVendor_Airline_Nominated_Customer_PO_TC11,Y,,,SACS_PLT_SUITE,windows 10,,null,820.274
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,Verify_PLTFLOW_Vendor_ElectronicInterfaceSupportedFlag_Enabled_Airline_Nominated_Customer_PO_TC23,Y,,,SACS_PLT_SUITE,windows 10,,null,414.595
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,Verify_PLTFLOW_RegularVendor_Airline_Nominated_Customer_PO_TC5,Y,,,SACS_PLT_SUITE,windows 10,,null,213.683
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,Verify_PLTFLOW_Vendor_SAPTransferFlag_Disable_Airline_NonNominated_PO_TC16,Y,,,SACS_PLT_SUITE,windows 10,,null,313.131
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,Verify_PLTFLOW_Vendor_SAPTransferFlag_Disable_Airline_Nominated_Customer_PO_TC17,Y,,,SACS_PLT_SUITE,windows 10,,null,369.446
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,Verify_PLTFLOW_IntercomVendor_Airline_NonNominated_PO_TC10,Y,,,SACS_PLT_SUITE,windows 10,,null,491.245
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,Verify_PLTFLOW_Vendor_SAPTransferFlag_Disable_Airline_Nominated_GateTrade_PO_TC18,Y,,,SACS_PLT_SUITE,windows 10,,null,553.878
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,Verify_PLTFLOW_Vendor_ElectronicInterfaceSupportedFlag_Enabled_Airline_Nominated_GateTrade_PO_TC24,Y,,,SACS_PLT_SUITE,windows 10,,null,366.028
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,Verify_PLTFLOW_IntercomVendor_Airline_Nominated_GateTrade_WithoutPO_TC12,Y,,,SACS_PLT_SUITE,windows 10,,null,367.547
+ClassName,Test Case Name,Status,Test Case Description,Module Name,Suite Name,Operating System,Browser,Build No,Time in Seconds
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,Verify_PLTFLOW_Vendor_SAPTransferFlag_Disable_Airline_Nominated_GateTrade_PO_TC18,Y,,,SACS_PLT_SUITE,windows 10,,null,203.468
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,Verify_PLTFLOW_IntercomVendor_Airline_NonNominated_PO_TC10,Y,,,SACS_PLT_SUITE,windows 10,,null,59391.949
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,Verify_PLTFLOW_Vendor_ElectronicInterfaceSupportedFlag_Enabled_Airline_Nominated_GateTrade_PO_TC24,Y,,,SACS_PLT_SUITE,windows 10,,null,201.968
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,Verify_PLTFLOW_RegularVendor_Airline_NonNominated_PO_TC4,Y,,,SACS_PLT_SUITE,windows 10,,null,396.341
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,Verify_PLTFLOW_Vendor_SAPTransferFlag_Disable_Airline_Nominated_Customer_PO_TC17,Y,,,SACS_PLT_SUITE,windows 10,,null,206.364
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,Verify_PLTFLOW_RegularVendor_Airline_Nominated_Customer_PO_TC5,Y,,,SACS_PLT_SUITE,windows 10,,null,310.844
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,Verify_PLTFLOW_RegularVendor_Airline_Nominated_GateTrade_PO_TC6,Y,,,SACS_PLT_SUITE,windows 10,,null,403.384
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,Verify_PLTFLOW_IntercomVendor_Airline_Nominated_GateTrade_WithoutPO_TC12,Y,,,SACS_PLT_SUITE,windows 10,,null,210.605
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,Verify_PLTFLOW_Vendor_ElectronicInterfaceSupportedFlag_Enabled_Airline_NonNominated_PO_TC22,Y,,,SACS_PLT_SUITE,windows 10,,null,196.328
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,Verify_PLTFLOW_Vendor_ElectronicInterfaceSupportedFlag_Enabled_Airline_Nominated_Customer_PO_TC23,Y,,,SACS_PLT_SUITE,windows 10,,null,204.283
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,Verify_PLTFLOW_Vendor_SAPTransferFlag_Disable_Airline_NonNominated_PO_TC16,Y,,,SACS_PLT_SUITE,windows 10,,null,212.623
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,Verify_PLTFLOW_IntercomVendor_Airline_Nominated_Customer_PO_TC11,Y,,,SACS_PLT_SUITE,windows 10,,null,199.390
+ClassName,Test Case Name,Status,Test Case Description,Module Name,Suite Name,Operating System,Browser,Build No,Time in Seconds
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,Verify_PLTFLOW_IntercomVendor_Airline_NonNominated_PO_TC10,N,,,SACS_PLT_SUITE,windows 10,,null,376.811
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,Verify_PLTFLOW_IntercomVendor_Airline_Nominated_Customer_PO_TC11,N,,,SACS_PLT_SUITE,windows 10,,null,420.641
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,Verify_PLTFLOW_Vendor_ElectronicInterfaceSupportedFlag_Enabled_Airline_NonNominated_PO_TC22,N,,,SACS_PLT_SUITE,windows 10,,null,629.704
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,Verify_PLTFLOW_RegularVendor_Airline_NonNominated_PO_TC4,N,,,SACS_PLT_SUITE,windows 10,,null,443.601
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,Verify_PLTFLOW_Vendor_SAPTransferFlag_Disable_Airline_Nominated_GateTrade_PO_TC18,N,,,SACS_PLT_SUITE,windows 10,,null,386.002
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,Verify_PLTFLOW_Vendor_SAPTransferFlag_Disable_Airline_NonNominated_PO_TC16,N,,,SACS_PLT_SUITE,windows 10,,null,321.559
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,Verify_PLTFLOW_Vendor_ElectronicInterfaceSupportedFlag_Enabled_Airline_Nominated_GateTrade_PO_TC24,N,,,SACS_PLT_SUITE,windows 10,,null,379.658
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,Verify_PLTFLOW_IntercomVendor_Airline_Nominated_GateTrade_WithoutPO_TC12,N,,,SACS_PLT_SUITE,windows 10,,null,324.789
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,Verify_PLTFLOW_RegularVendor_Airline_Nominated_GateTrade_PO_TC6,N,,,SACS_PLT_SUITE,windows 10,,null,374.756
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,Verify_PLTFLOW_Vendor_SAPTransferFlag_Disable_Airline_Nominated_Customer_PO_TC17,N,,,SACS_PLT_SUITE,windows 10,,null,387.291
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,Verify_PLTFLOW_RegularVendor_Airline_Nominated_Customer_PO_TC5,N,,,SACS_PLT_SUITE,windows 10,,null,474.740
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,Verify_PLTFLOW_Vendor_ElectronicInterfaceSupportedFlag_Enabled_Airline_Nominated_Customer_PO_TC23,N,,,SACS_PLT_SUITE,windows 10,,null,392.437
+ClassName,Test Case Name,Status,Test Case Description,Module Name,Suite Name,Operating System,Browser,Build No,Time in Seconds
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod,N,,,FailedCases1202.xls,windows 10,,null,0.006
+ClassName,Test Case Name,Status,Test Case Description,Module Name,Suite Name,Operating System,Browser,Build No,Time in Seconds
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod,N,,,FailedCases1202.xls,windows 10,,null,0.011
+ClassName,Test Case Name,Status,Test Case Description,Module Name,Suite Name,Operating System,Browser,Build No,Time in Seconds
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod,N,,,FailedCases1202.xls,windows 10,,null,0.009
+ClassName,Test Case Name,Status,Test Case Description,Module Name,Suite Name,Operating System,Browser,Build No,Time in Seconds
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod,N,,,FailedCases1202.xls,windows 10,,null,0.008
+ClassName,Test Case Name,Status,Test Case Description,Module Name,Suite Name,Operating System,Browser,Build No,Time in Seconds
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod,N,,,FailedCases1202.xls,windows 10,,null,0.008
+ClassName,Test Case Name,Status,Test Case Description,Module Name,Suite Name,Operating System,Browser,Build No,Time in Seconds
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod,N,,,FailedCases1202.xls,windows 10,,null,0.007
+ClassName,Test Case Name,Status,Test Case Description,Module Name,Suite Name,Operating System,Browser,Build No,Time in Seconds
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod,N,,,FailedCases1202.xls,windows 10,,null,0.008
+ClassName,Test Case Name,Status,Test Case Description,Module Name,Suite Name,Operating System,Browser,Build No,Time in Seconds
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod10,N,,Non Vendor-,FailedCases1202.xls,windows 10,,null,0.001
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod6,N,,Vendor-,FailedCases1202.xls,windows 10,,null,0.016
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod11,N,,Non Vendor-,FailedCases1202.xls,windows 10,,null,0.004
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod3,N,,Nominated Vendor-,FailedCases1202.xls,windows 10,,null,0.005
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod8,N,,Non Vendor-,FailedCases1202.xls,windows 10,,null,0.012
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod4,N,,Vendor-,FailedCases1202.xls,windows 10,,null,0.004
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod9,N,,Non Vendor-,FailedCases1202.xls,windows 10,,null,0.002
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod1,N,,Non_Nominated Vendor-,FailedCases1202.xls,windows 10,,null,0.007
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod2,N,,Non_Nominated Vendor-,FailedCases1202.xls,windows 10,,null,0.005
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod5,N,,Non Vendor-,FailedCases1202.xls,windows 10,,null,0.000
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod7,N,,Vendor-,FailedCases1202.xls,windows 10,,null,0.010
+ClassName,Test Case Name,Status,Test Case Description,Module Name,Suite Name,Operating System,Browser,Build No,Time in Seconds
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod5,N,,Non Vendor-,FailedCases1202.xls,windows 10,,null,0.003
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod3,N,,Nominated Vendor-,FailedCases1202.xls,windows 10,,null,0.001
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod1,N,,Non_Nominated Vendor-,FailedCases1202.xls,windows 10,,null,0.010
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod8,N,,Non Vendor-,FailedCases1202.xls,windows 10,,null,0.004
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod6,N,,Vendor-,FailedCases1202.xls,windows 10,,null,0.007
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod9,N,,Non Vendor-,FailedCases1202.xls,windows 10,,null,0.006
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod2,N,,Non_Nominated Vendor-,FailedCases1202.xls,windows 10,,null,0.004
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod10,N,,Non Vendor-,FailedCases1202.xls,windows 10,,null,0.004
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod11,N,,Non Vendor-,FailedCases1202.xls,windows 10,,null,0.004
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod4,N,,Vendor-,FailedCases1202.xls,windows 10,,null,0.001
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod7,N,,Vendor-,FailedCases1202.xls,windows 10,,null,0.005
+ClassName,Test Case Name,Status,Test Case Description,Module Name,Suite Name,Operating System,Browser,Build No,Time in Seconds
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod8,N,,Non Vendor-,FailedCases1202.xls,windows 10,,null,0.004
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod7,N,,Vendor-,FailedCases1202.xls,windows 10,,null,0.008
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod1,N,,Non_Nominated Vendor-,FailedCases1202.xls,windows 10,,null,0.009
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod10,N,,Non Vendor-,FailedCases1202.xls,windows 10,,null,0.000
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod6,N,,Vendor-,FailedCases1202.xls,windows 10,,null,0.000
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod4,N,,Vendor-,FailedCases1202.xls,windows 10,,null,0.004
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod2,N,,Non_Nominated Vendor-,FailedCases1202.xls,windows 10,,null,0.002
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod3,N,,Nominated Vendor-,FailedCases1202.xls,windows 10,,null,0.004
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod5,N,,Non Vendor-,FailedCases1202.xls,windows 10,,null,0.002
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod11,N,,Non Vendor-,FailedCases1202.xls,windows 10,,null,0.000
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod9,N,,Non Vendor-,FailedCases1202.xls,windows 10,,null,0.000
+ClassName,Test Case Name,Status,Test Case Description,Module Name,Suite Name,Operating System,Browser,Build No,Time in Seconds
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod8,N,8,Non Vendor-,FailedCases1202.xls,windows 10,,null,0.005
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod7,N,7,Vendor-,FailedCases1202.xls,windows 10,,null,0.004
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod1,N,1,Non_Nominated Vendor-,FailedCases1202.xls,windows 10,,null,0.005
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod10,N,10,Non Vendor-,FailedCases1202.xls,windows 10,,null,0.006
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod6,N,6,Vendor-,FailedCases1202.xls,windows 10,,null,0.002
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod4,N,4,Vendor-,FailedCases1202.xls,windows 10,,null,0.000
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod2,N,2,Non_Nominated Vendor-,FailedCases1202.xls,windows 10,,null,0.004
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod3,N,3,Nominated Vendor-,FailedCases1202.xls,windows 10,,null,0.003
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod5,N,5,Non Vendor-,FailedCases1202.xls,windows 10,,null,0.006
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod11,N,11,Non Vendor-,FailedCases1202.xls,windows 10,,null,0.003
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod9,N,9,Non Vendor-,FailedCases1202.xls,windows 10,,null,0.000
+ClassName,Test Case Name,Status,Test Case Description,Module Name,Suite Name,Operating System,Browser,Build No,Time in Seconds
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod8,N,8,Non Vendor-,EmailTest.xls,windows 10,,null,0.007
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod7,N,7,Vendor-,EmailTest.xls,windows 10,,null,0.006
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod11,N,11,Non Vendor-,EmailTest.xls,windows 10,,null,0.002
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod1,N,1,Non_Nominated Vendor-,EmailTest.xls,windows 10,,null,0.008
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod6,N,6,Vendor-,EmailTest.xls,windows 10,,null,0.003
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod5,N,5,Non Vendor-,EmailTest.xls,windows 10,,null,0.004
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod4,N,4,Vendor-,EmailTest.xls,windows 10,,null,0.002
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod2,N,2,Non_Nominated Vendor-,EmailTest.xls,windows 10,,null,0.006
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod9,N,9,Non Vendor-,EmailTest.xls,windows 10,,null,0.001
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod10,N,10,Non Vendor-,EmailTest.xls,windows 10,,null,0.000
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod3,N,3,Nominated Vendor-,EmailTest.xls,windows 10,,null,0.007
+ClassName,Test Case Name,Status,Test Case Description,Module Name,Suite Name,Operating System,Browser,Build No,Time in Seconds
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod8,N,8,Non Vendor-,EmailTest.xls,windows 10,,null,0.004
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod7,N,7,Vendor-,EmailTest.xls,windows 10,,null,0.005
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod1,N,1,Non_Nominated Vendor-,EmailTest.xls,windows 10,,null,0.007
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod10,N,10,Non Vendor-,EmailTest.xls,windows 10,,null,0.000
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod6,N,6,Vendor-,EmailTest.xls,windows 10,,null,0.000
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod4,N,4,Vendor-,EmailTest.xls,windows 10,,null,0.000
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod2,N,2,Non_Nominated Vendor-,EmailTest.xls,windows 10,,null,0.004
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod3,N,3,Nominated Vendor-,EmailTest.xls,windows 10,,null,0.003
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod5,N,5,Non Vendor-,EmailTest.xls,windows 10,,null,0.004
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod11,N,11,Non Vendor-,EmailTest.xls,windows 10,,null,0.002
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod9,N,9,Non Vendor-,EmailTest.xls,windows 10,,null,0.005
+ClassName,Test Case Name,Status,Test Case Description,Module Name,Suite Name,Operating System,Browser,Build No,Time in Seconds
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod2,N,2,Non_Nominated Vendor-,EmailTest.xls,windows 10,,null,0.005
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod8,N,8,Non Vendor-,EmailTest.xls,windows 10,,null,0.010
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod1,N,1,Non_Nominated Vendor-,EmailTest.xls,windows 10,,null,0.011
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod4,N,4,Vendor-,EmailTest.xls,windows 10,,null,0.003
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod3,N,3,Nominated Vendor-,EmailTest.xls,windows 10,,null,0.006
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod11,N,11,Non Vendor-,EmailTest.xls,windows 10,,null,0.001
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod6,N,6,Vendor-,EmailTest.xls,windows 10,,null,0.010
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod10,N,10,Non Vendor-,EmailTest.xls,windows 10,,null,0.001
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod5,N,5,Non Vendor-,EmailTest.xls,windows 10,,null,0.004
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod7,N,7,Vendor-,EmailTest.xls,windows 10,,null,0.002
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod9,N,9,Non Vendor-,EmailTest.xls,windows 10,,null,0.003
+ClassName,Test Case Name,Status,Test Case Description,Module Name,Suite Name,Operating System,Browser,Build No,Time in Seconds
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod8,N,8,Non Vendor-,EmailTest.xls,windows 10,,null,0.008
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod7,N,7,Vendor-,EmailTest.xls,windows 10,,null,0.000
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod11,N,11,Non Vendor-,EmailTest.xls,windows 10,,null,0.004
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod1,N,1,Non_Nominated Vendor-,EmailTest.xls,windows 10,,null,0.005
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod6,N,6,Vendor-,EmailTest.xls,windows 10,,null,0.003
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod5,N,5,Non Vendor-,EmailTest.xls,windows 10,,null,0.004
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod4,N,4,Vendor-,EmailTest.xls,windows 10,,null,0.001
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod2,N,2,Non_Nominated Vendor-,EmailTest.xls,windows 10,,null,0.000
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod9,N,9,Non Vendor-,EmailTest.xls,windows 10,,null,0.000
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod10,N,10,Non Vendor-,EmailTest.xls,windows 10,,null,0.000
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod3,N,3,Nominated Vendor-,EmailTest.xls,windows 10,,null,0.004
+ClassName,Test Case Name,Status,Test Case Description,Module Name,Suite Name,Operating System,Browser,Build No,Time in Seconds
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod8,N,8,Non Vendor-,EmailTest.xls,windows 10,,null,0.010
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod7,N,7,Vendor-,EmailTest.xls,windows 10,,null,0.002
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod11,N,11,Non Vendor-,EmailTest.xls,windows 10,,null,0.002
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod1,N,1,Non_Nominated Vendor-,EmailTest.xls,windows 10,,null,0.009
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod6,N,6,Vendor-,EmailTest.xls,windows 10,,null,0.004
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod5,N,5,Non Vendor-,EmailTest.xls,windows 10,,null,0.002
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod4,N,4,Vendor-,EmailTest.xls,windows 10,,null,0.005
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod2,N,2,Non_Nominated Vendor-,EmailTest.xls,windows 10,,null,0.003
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod9,N,9,Non Vendor-,EmailTest.xls,windows 10,,null,0.002
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod10,N,10,Non Vendor-,EmailTest.xls,windows 10,,null,0.000
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod3,N,3,Nominated Vendor-,EmailTest.xls,windows 10,,null,0.005
+ClassName,Test Case Name,Status,Test Case Description,Module Name,Suite Name,Operating System,Browser,Build No,Time in Seconds
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod5,N,5,Non Vendor-,EmailTest.xls,windows 10,,null,0.004
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod3,N,3,Nominated Vendor-,EmailTest.xls,windows 10,,null,0.001
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod1,N,1,Non_Nominated Vendor-,EmailTest.xls,windows 10,,null,0.007
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod8,N,8,Non Vendor-,EmailTest.xls,windows 10,,null,0.000
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod6,N,6,Vendor-,EmailTest.xls,windows 10,,null,0.004
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod9,N,9,Non Vendor-,EmailTest.xls,windows 10,,null,0.001
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod2,N,2,Non_Nominated Vendor-,EmailTest.xls,windows 10,,null,0.004
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod10,N,10,Non Vendor-,EmailTest.xls,windows 10,,null,0.003
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod11,N,11,Non Vendor-,EmailTest.xls,windows 10,,null,0.005
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod4,N,4,Vendor-,EmailTest.xls,windows 10,,null,0.000
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod7,N,7,Vendor-,EmailTest.xls,windows 10,,null,0.000
+ClassName,Test Case Name,Status,Test Case Description,Module Name,Suite Name,Operating System,Browser,Build No,Time in Seconds
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod8,N,8,Non Vendor-,EmailTest.xls,windows 10,,null,0.012
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod7,N,7,Vendor-,EmailTest.xls,windows 10,,null,0.001
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod1,N,1,Non_Nominated Vendor-,EmailTest.xls,windows 10,,null,0.008
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod10,N,10,Non Vendor-,EmailTest.xls,windows 10,,null,0.005
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod6,N,6,Vendor-,EmailTest.xls,windows 10,,null,0.004
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod4,N,4,Vendor-,EmailTest.xls,windows 10,,null,0.004
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod2,N,2,Non_Nominated Vendor-,EmailTest.xls,windows 10,,null,0.005
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod3,N,3,Nominated Vendor-,EmailTest.xls,windows 10,,null,0.000
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod5,N,5,Non Vendor-,EmailTest.xls,windows 10,,null,0.004
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod11,N,11,Non Vendor-,EmailTest.xls,windows 10,,null,0.012
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod9,N,9,Non Vendor-,EmailTest.xls,windows 10,,null,0.000
+ClassName,Test Case Name,Status,Test Case Description,Module Name,Suite Name,Operating System,Browser,Build No,Time in Seconds
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod11,N,11,Non Vendor-,EmailTest.xls,windows 10,,null,0.000
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod10,N,10,Non Vendor-,EmailTest.xls,windows 10,,null,0.004
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod4,N,4,Vendor-,EmailTest.xls,windows 10,,null,0.004
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod7,N,7,Vendor-,EmailTest.xls,windows 10,,null,0.005
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod1,N,1,Non_Nominated Vendor-,EmailTest.xls,windows 10,,null,0.030
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod5,N,5,Non Vendor-,EmailTest.xls,windows 10,,null,0.004
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod8,N,8,Non Vendor-,EmailTest.xls,windows 10,,null,0.002
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod9,N,9,Non Vendor-,EmailTest.xls,windows 10,,null,0.002
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod3,N,3,Nominated Vendor-,EmailTest.xls,windows 10,,null,0.004
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod2,N,2,Non_Nominated Vendor-,EmailTest.xls,windows 10,,null,0.003
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod6,N,6,Vendor-,EmailTest.xls,windows 10,,null,0.005
+ClassName,Test Case Name,Status,Test Case Description,Module Name,Suite Name,Operating System,Browser,Build No,Time in Seconds
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod10,N,10,Non Vendor-,EmailTest.xls,windows 10,,null,0.000
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod6,N,6,Vendor-,EmailTest.xls,windows 10,,null,0.002
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod11,N,11,Non Vendor-,EmailTest.xls,windows 10,,null,0.001
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod3,N,3,Nominated Vendor-,EmailTest.xls,windows 10,,null,0.008
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod8,N,8,Non Vendor-,EmailTest.xls,windows 10,,null,0.006
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod4,N,4,Vendor-,EmailTest.xls,windows 10,,null,0.004
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod9,N,9,Non Vendor-,EmailTest.xls,windows 10,,null,0.000
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod1,N,1,Non_Nominated Vendor-,EmailTest.xls,windows 10,,null,0.004
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod2,N,2,Non_Nominated Vendor-,EmailTest.xls,windows 10,,null,0.003
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod5,N,5,Non Vendor-,EmailTest.xls,windows 10,,null,0.001
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod7,N,7,Vendor-,EmailTest.xls,windows 10,,null,0.004
+ClassName,Test Case Name,Status,Test Case Description,Module Name,Suite Name,Operating System,Browser,Build No,Time in Seconds
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod8,N,8,Non Vendor-,EmailTest.xls,windows 10,,null,0.013
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod7,N,7,Vendor-,EmailTest.xls,windows 10,,null,0.003
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod11,N,11,Non Vendor-,EmailTest.xls,windows 10,,null,0.005
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod1,N,1,Non_Nominated Vendor-,EmailTest.xls,windows 10,,null,0.009
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod6,N,6,Vendor-,EmailTest.xls,windows 10,,null,0.004
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod5,N,5,Non Vendor-,EmailTest.xls,windows 10,,null,0.004
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod4,N,4,Vendor-,EmailTest.xls,windows 10,,null,0.004
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod2,N,2,Non_Nominated Vendor-,EmailTest.xls,windows 10,,null,0.004
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod9,N,9,Non Vendor-,EmailTest.xls,windows 10,,null,0.004
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod10,N,10,Non Vendor-,EmailTest.xls,windows 10,,null,0.001
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod3,N,3,Nominated Vendor-,EmailTest.xls,windows 10,,null,0.001
+ClassName,Test Case Name,Status,Test Case Description,Module Name,Suite Name,Operating System,Browser,Build No,Time in Seconds
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod10,N,10,Non Vendor-,EmailTest.xls,windows 10,,null,0.000
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod6,N,6,Vendor-,EmailTest.xls,windows 10,,null,0.003
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod11,N,11,Non Vendor-,EmailTest.xls,windows 10,,null,0.002
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod3,N,3,Nominated Vendor-,EmailTest.xls,windows 10,,null,0.002
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod8,N,8,Non Vendor-,EmailTest.xls,windows 10,,null,0.000
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod4,N,4,Vendor-,EmailTest.xls,windows 10,,null,0.000
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod9,N,9,Non Vendor-,EmailTest.xls,windows 10,,null,0.001
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod1,N,1,Non_Nominated Vendor-,EmailTest.xls,windows 10,,null,0.005
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod2,N,2,Non_Nominated Vendor-,EmailTest.xls,windows 10,,null,0.003
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod5,N,5,Non Vendor-,EmailTest.xls,windows 10,,null,0.001
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod7,N,7,Vendor-,EmailTest.xls,windows 10,,null,0.001

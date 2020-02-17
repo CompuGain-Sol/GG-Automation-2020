@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SACS_PLT_SUITE" thread-count="3" parallel="tests">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+	 <test name="PLT_FLOWS_EMEA">
+	   <!--  <parameter name="url" value="https://sacsqa.gategroup.com/sacsqaemea/"/> 
+		<parameter name="username" value="ggamericas\vravipati" />
+		<parameter name="password" value="Welcome123" />
+		<parameter name="masterUnit" value="UK-MASTER "/>
+		<parameter name="countryUnit" value="UK-LBA 3298" />
+		<parameter name="customerCode" value="AC-AIR CANADA" />
+		<parameter name="mainStore" value="01 - Main/Ambient" /> -->
+		<classes>
+			<class name="com.sacs.plt.testcases.PTLFlow_TestCases">
+		    </class>
+		</classes>
+	</test>
+</suite> 

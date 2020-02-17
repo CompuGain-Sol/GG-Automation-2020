@@ -1,0 +1,12 @@
+ClassName,Test Case Name,Status,Test Case Description,Module Name,Suite Name,Operating System,Browser,Build No,Time in Seconds
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod10,N,10,Non Vendor-,EmailTest.xls,windows 10,,null,0.000
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod6,N,6,Vendor-,EmailTest.xls,windows 10,,null,0.003
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod11,N,11,Non Vendor-,EmailTest.xls,windows 10,,null,0.002
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod3,N,3,Nominated Vendor-,EmailTest.xls,windows 10,,null,0.002
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod8,N,8,Non Vendor-,EmailTest.xls,windows 10,,null,0.000
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod4,N,4,Vendor-,EmailTest.xls,windows 10,,null,0.000
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod9,N,9,Non Vendor-,EmailTest.xls,windows 10,,null,0.001
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod1,N,1,Non_Nominated Vendor-,EmailTest.xls,windows 10,,null,0.005
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod2,N,2,Non_Nominated Vendor-,EmailTest.xls,windows 10,,null,0.003
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod5,N,5,Non Vendor-,EmailTest.xls,windows 10,,null,0.001
+com.sacs.plt.testcases.PLTFlow_FixedOPOCTestCases,TestMethod7,N,7,Vendor-,EmailTest.xls,windows 10,,null,0.001

@@ -1,0 +1,362 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>SCAS</groupId>
+	<artifactId>SCAS_UIAutomation</artifactId>
+	<version>POC</version>
+	<name>Automation Testing</name>
+	<description>SACS Automation</description>
+	<properties>
+		
+
+		<selenium.version>3.3.1</selenium.version>
+
+		<log4j.version>1.2.15</log4j.version>
+
+		<mavensurefire>2.16</mavensurefire>
+		<mavencompilerplugin>1.6</mavencompilerplugin>
+		<apachehttpcomponents>4.3.5</apachehttpcomponents>
+
+		<riakclient>1.1.4</riakclient>
+		<jsonsimple>1.1.1</jsonsimple>
+		<restassured>1.4</restassured>
+		<testngjar>6.11</testngjar>
+		<commonsnet>2.0</commonsnet>
+		<commonsio>2.4</commonsio>
+		<jfreechart>1.0.13</jfreechart>
+		<guice>1.0</guice>
+		<reportngjar>1.0</reportngjar>
+		<velocity>1.6.2</velocity>
+		<sikuliapi>1.0.2</sikuliapi>
+		<apachepoi>3.11-beta3</apachepoi>
+		<jenkinstestinprogress>0.1</jenkinstestinprogress>
+		   <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		
+	</properties>
+	<build>
+			 <defaultGoal>test</defaultGoal> 
+	<!-- 	<pluginManagement> -->
+			<plugins>
+				<plugin>
+					<groupId>com.github.webdriverextensions</groupId>
+					<artifactId>webdriverextensions-maven-plugin</artifactId>
+					<version>3.1.1</version>
+					<executions>
+						<execution>
+							<goals>
+								<goal>install-drivers</goal>
+							</goals>
+						</execution>
+					</executions>
+					<configuration>
+						<drivers>
+							<driver>
+								<name>chromedriver</name>
+								 <platform>windows</platform>
+								<bit>32</bit> 
+								<version>74.0.3729.6</version>
+								 <url>http://chromedriver.storage.googleapis.com/74.0.3729.6/chromedriver_win32.zip</url> 
+							</driver>
+						</drivers>
+					</configuration>
+				</plugin>
+
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-surefire-plugin</artifactId>
+					<version>${mavensurefire}</version>
+					<configuration>
+						<testFailureIgnore>true</testFailureIgnore>
+
+						<forkCount>0</forkCount>
+						<reuseForks>true</reuseForks>
+						<argLine>-Xmx1024m -XX:MaxPermSize=256m</argLine>
+						<reportsDirectory>${basedir}/test-output</reportsDirectory>
+						<outputDirectory>${basedir}/Reports</outputDirectory>
+						<outputName>TestRun-Reports-At-${maven.build.timestamp}</outputName>
+						<property>
+							<name>SuiteName</name>
+							<value>${SuiteName}</value>
+							<echo>the suite file name is ${SuiteName} </echo>
+						</property>
+						<suiteXmlFiles>
+							<suiteXmlFile>${SuiteName}</suiteXmlFile>
+						</suiteXmlFiles>
+					</configuration>
+				</plugin>
+				<!--These Plugin is used to clean the any folder before run. -->
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-clean-plugin</artifactId>
+					<version>2.6.1</version>
+					<configuration>
+						<verbose>true</verbose>
+						<failOnError>false</failOnError>
+						<filesets>
+							<fileset>
+								<directory>${basedir}/test-output</directory>
+								<includes>
+									<include>**/*</include>
+								</includes>
+								<followSymlinks>false</followSymlinks>
+							</fileset>
+						</filesets>
+					</configuration>
+				</plugin>
+
+				<!-- This code will run create the XMl Suite File -->
+
+				<plugin>
+					<groupId>org.codehaus.mojo</groupId>
+					<artifactId>exec-maven-plugin</artifactId>
+					<version>1.2.1</version>
+					<executions>
+						<execution>
+							<goals>
+								<goal>java</goal>
+							</goals>
+						</execution>
+					</executions>
+					<configuration>
+						<mainClass>com.sacs.utils.XMLSuiteRunner</mainClass>
+						<arguments>
+							<argument>${args}</argument>
+							<!-- <argument>bar</argument> -->
+						</arguments>
+					</configuration>
+				</plugin>
+
+
+				<!-- <plugin> <groupId>org.apache.maven.plugins</groupId> <artifactId>maven-surefire-plugin</artifactId> 
+					<version>2.12.4</version> <configuration> <suiteXmlFiles> <suiteXmlFile>reusable.xml</suiteXmlFile> 
+					</suiteXmlFiles> </configuration> </plugin> -->
+
+
+			</plugins>
+<!-- 		</pluginManagement>
+ -->
+		<pluginManagement>
+			<plugins>
+				<!--This plugin's configuration is used to store Eclipse m2e settings only. It has no influence on the Maven build itself.-->
+				<plugin>
+					<groupId>org.eclipse.m2e</groupId>
+					<artifactId>lifecycle-mapping</artifactId>
+					<version>1.0.0</version>
+					<configuration>
+						<lifecycleMappingMetadata>
+							<pluginExecutions>
+								<pluginExecution>
+									<pluginExecutionFilter>
+										<groupId>
+											com.github.webdriverextensions
+										</groupId>
+										<artifactId>
+											webdriverextensions-maven-plugin
+										</artifactId>
+										<versionRange>
+											[3.1.1,)
+										</versionRange>
+										<goals>
+											<goal>install-drivers</goal>
+										</goals>
+									</pluginExecutionFilter>
+									<action>
+										<ignore></ignore>
+									</action>
+								</pluginExecution>
+							</pluginExecutions>
+						</lifecycleMappingMetadata>
+					</configuration>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.github.webdriverextensions</groupId>
+			<artifactId>webdriverextensions</artifactId>
+			<version>3.6.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+			<version>2.8.0</version>
+		</dependency>
+
+
+
+		<dependency>
+			<groupId>org.mongodb</groupId>
+			<artifactId>mongo-java-driver</artifactId>
+			<version>2.10.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>${selenium.version}</version>
+			<exclusions>
+				<exclusion>
+					<artifactId>httpclient</artifactId>
+					<groupId>org.apache.httpcomponents</groupId>
+				</exclusion>
+				<exclusion>
+					<groupId>net.sourceforge.htmlunit</groupId>
+					<artifactId>htmlunit</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-chrome-driver</artifactId>
+			<version>${selenium.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-server</artifactId>
+			<version>${selenium.version}</version>
+			<exclusions>
+				<exclusion>
+					<groupId>org.seleniumhq.selenium</groupId>
+					<artifactId>htmlunit-driver</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.jsoup/jsoup -->
+		<dependency>
+			<groupId>org.jsoup</groupId>
+			<artifactId>jsoup</artifactId>
+			<version>1.8.3</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+			<version>${apachehttpcomponents}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.basho.riak</groupId>
+			<artifactId>riak-client</artifactId>
+			<version>${riakclient}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.googlecode.json-simple</groupId>
+			<artifactId>json-simple</artifactId>
+			<version>${jsonsimple}</version>
+		</dependency>
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>${log4j.version}</version>
+			<exclusions>
+				<exclusion>
+					<groupId>com.sun.jmx</groupId>
+					<artifactId>jmxri</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>com.sun.jdmk</groupId>
+					<artifactId>jmxtools</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>javax.jms</groupId>
+					<artifactId>jms</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>com.jayway.restassured</groupId>
+			<artifactId>rest-assured</artifactId>
+			<version>${restassured}</version>
+			<exclusions>
+				<exclusion>
+					<artifactId>httpclient</artifactId>
+					<groupId>org.apache.httpcomponents</groupId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>${testngjar}</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-net</groupId>
+			<artifactId>commons-net</artifactId>
+			<version>${commonsnet}</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>${commonsio}</version>
+		</dependency>
+		<dependency>
+			<groupId>jfree</groupId>
+			<artifactId>jfreechart</artifactId>
+			<version>${jfreechart}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.uncommons.custom</groupId>
+			<artifactId>reportng.custom</artifactId>
+			<scope>system</scope>
+			<systemPath>${basedir}/Lib/reportng-1.1.2.jar</systemPath>
+			<version>${reportngjar}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.google.inject</groupId>
+			<artifactId>guice</artifactId>
+			<version>${guice}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.velocity</groupId>
+			<artifactId>velocity</artifactId>
+			<version>${velocity}</version>
+		</dependency>
+		<!-- <dependency> <groupId>org.sikuli</groupId> <artifactId>sikuli-api</artifactId> 
+			<version>${sikuliapi}</version> <exclusions> <exclusion> <artifactId>guava</artifactId> 
+			<groupId>com.google.guava</groupId> </exclusion> </exclusions> </dependency> -->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>${apachepoi}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>${apachepoi}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.imaginea.jenkins.plugins</groupId>
+			<artifactId>testInProgress-testng-client</artifactId>
+			<version>${jenkinstestinprogress}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>ru.yandex.qatools.ashot</groupId>
+			<artifactId>ashot</artifactId>
+			<version>1.4.12</version>
+			<exclusions>
+				<exclusion>
+					<groupId>com.google.code.gson</groupId>
+					<artifactId>gson</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+
+		<dependency>
+			<groupId>com.paulhammant</groupId>
+			<artifactId>ngwebdriver</artifactId>
+			<version>1.0</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+	<repositories>
+		<repository>
+			<id>repo.jenkins-ci.org</id>
+			<url>http://repo.jenkins-ci.org/public/</url>
+		</repository>
+	</repositories>
+</project>
