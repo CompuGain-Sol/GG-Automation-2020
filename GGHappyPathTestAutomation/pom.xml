@@ -28,7 +28,7 @@
 		<reportngjar>1.0</reportngjar>
 		<velocity>1.6.2</velocity>
 		<sikuliapi>1.0.2</sikuliapi>
-		<apachepoi>3.11-beta3</apachepoi>
+		<apachepoi>4.1.2</apachepoi>
 		<jenkinstestinprogress>0.1</jenkinstestinprogress>
 		   <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		
