@@ -15,7 +15,7 @@
 
 		<mavensurefire>2.16</mavensurefire>
 		<mavencompilerplugin>1.6</mavencompilerplugin>
-		<apachehttpcomponents>4.3.5</apachehttpcomponents>
+		<apachehttpcomponents>4.5.13</apachehttpcomponents>
 
 		<riakclient>1.1.4</riakclient>
 		<jsonsimple>1.1.1</jsonsimple>
