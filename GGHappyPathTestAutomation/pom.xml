@@ -21,7 +21,7 @@
 		<jsonsimple>1.1.1</jsonsimple>
 		<restassured>1.4</restassured>
 		<testngjar>6.11</testngjar>
-		<commonsnet>2.0</commonsnet>
+		<commonsnet>3.9.0</commonsnet>
 		<commonsio>2.4</commonsio>
 		<jfreechart>1.0.13</jfreechart>
 		<guice>1.0</guice>
